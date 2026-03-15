@@ -13,7 +13,7 @@ const Sidebar = () => {
     <nav className={styles.sidebar}>
       <div className={styles.logo}>
         <Activity size={28} className="text-blue-500" />
-        <span className="font-bold text-lg tracking-wider">TRAFFIC<span className="text-blue-500">AI</span></span>
+        <span className="font-bold text-lg tracking-wider">YOLO<span className="text-blue-500"> ANALYTICS</span></span>
       </div>
 
       <ul className={styles.navItems}>
