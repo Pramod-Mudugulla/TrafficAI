@@ -98,10 +98,10 @@ export const Demo = () => {
                     >
                         <Upload size={18} /> Select File
                     </button>
-
+                    <br /><br />
                     <button
                         onClick={() => {
-                            setMediaSrc('/sample.png');
+                            setMediaSrc('/image copy.png');
                             setMediaType('image');
                             setDemoStats({ p: 0, v: 0 });
                             updateCounts(0, 0);
@@ -109,7 +109,9 @@ export const Demo = () => {
                         className="btn"
                         style={{ backgroundColor: '#475569', color: 'white' }}
                     >
-                        Load Sample Image
+                        Load Sample
+                        <br />
+                        Image
                     </button>
                 </div>
             </div>
